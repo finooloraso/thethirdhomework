@@ -1,0 +1,98 @@
+*{
+	font-family:Microsoft YaHei;
+	font-size:20px;
+	font-weight:bold;
+}
+
+div{
+	position: relative;
+	left:350px;
+	top:4px;
+	width:650px;
+	height: 45px;
+	background-color:rgba(75, 248, 52, 0.58);
+	border-radius:7px;
+	box-shadow:5px 5px 5px #888888
+}
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	cursor: pointer;
+}
+
+ul>li{
+	list-style:none;
+	font-size: 25px;
+	width: 130px;
+	height: 45px;
+	text-align: center;
+	float: left;
+}
+
+ul ul{
+	margin-top: 12px;
+	text-align: center;
+	line-height: 50px;
+	border-radius:7px;
+	display: none;
+}
+
+#secendul{
+	background-color:rgba(175, 255, 5, 0.53);
+	width:180px;
+	height:180px;
+	border-radius:7px;
+	box-shadow:5px 5px 5px #888888;
+}
+
+#secendli{
+	width:180px;
+}
+
+li:hover ul{
+	display: block;
+}
+
+#thirdul{
+	position: relative;
+	left:180px;
+	top: -90px;
+	display: none;
+}
+
+#thirdli{
+	width:130px;
+	height:45px;
+	background-color:rgba(18, 243, 144, 0.91);
+	border-radius:7px;
+}
+
+a:hover{
+	font-size:30px;
+}
+
+li#secendli:hover ul#thirdul{
+	display: block;
+}
+
+li:hover{
+	background-color:rgba(75, 248, 52, 0.95);
+	border-radius:7px;
+	box-shadow:5px 5px 5px #888888;
+}
+
+#secendli:hover{
+	background-color:rgba(178, 247, 31, 1);
+}
+
+#thirdli:hover{
+	background-color:rgba(119, 255, 168, 1);
+}
